@@ -115,21 +115,21 @@ export default function PhotoUploaderModal({
           <div className="grid grid-cols-2 gap-2">
             <button
               type="button"
-              onClick={() => onPhotoChange('assets/hero-portrait.jpg')}
+              onClick={() => onPhotoChange('assets/employee_record-manager.jpg')}
               className={`flex items-center gap-2.5 p-2 rounded-xl border text-left transition-all cursor-pointer ${
-                currentPhoto === 'assets/hero-portrait.jpg'
+                currentPhoto === 'assets/employee_record-manager.jpg'
                   ? 'border-red-500 bg-red-500/10 text-white'
                   : 'border-white/10 bg-white/5 hover:border-white/20 text-neutral-300'
               }`}
             >
               <img
-                src="assets/hero-portrait.jpg"
-                alt="Exact Studio Headshot"
+                src="assets/employee_record-manager.jpg"
+                alt="Employee Record Manager"
                 className="w-10 h-12 rounded object-cover border border-white/20"
               />
               <div className="min-w-0">
-                <span className="text-xs font-bold block truncate">Exact Studio Photo</span>
-                <span className="text-[10px] text-neutral-400 font-mono block truncate">White BG & Suit</span>
+                <span className="text-xs font-bold block truncate">Employee Photo</span>
+                <span className="text-[10px] text-neutral-400 font-mono block truncate">Project Portfolio</span>
               </div>
             </button>
 
